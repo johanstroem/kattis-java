@@ -31,9 +31,8 @@ public class Bproblem {
     sc.nextLine();
 
     String[] goalStates = new String[n];
-
-    String goal = "";
     for (int p = 0; p < n; p++) {
+      String goal = "";
       for (int i = 0; i<3; i++) {
         goal += sc.nextLine();
       }
